@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Install') {
       steps {
-        sh '''sudo apt-get upadte
+        sh '''sudo apt-get update
 sudo apt-get install go'''
       }
     }
