@@ -3,8 +3,7 @@ pipeline {
   stages {
     stage('Install') {
       steps {
-        sh '''sudo apt-get update
-sudo apt-get install go'''
+        echo 'try loading library implicitly'
       }
     }
   }
